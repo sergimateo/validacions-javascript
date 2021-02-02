@@ -1,0 +1,160 @@
+:root{
+    --main-color: #8A7971;
+    --light-accent: #A08D9B;
+    --light-accent-second: #9c839a;
+    --dark-accent: #908A87;
+    --dark-accent-second: #46253d;
+    --dark-shade: #221E26;
+    --light-shade: #EFF0E7;
+    --main-font: 'Cormorant Garamond', serif;
+    --secondary-font: 'Roboto Slab', serif;
+    --text-font: 'Telex', sans-serif;
+
+}
+
+body{
+
+/* height: 100vh; */
+    /* font-family: 'Arimo', sans-serif;
+    font-family: Museo Sans,Arial,Helvetica,sans-serif; */
+    background-color: var(--light-accent-second);
+} 
+
+body a {
+  color: var(--dark-accent-second);
+}
+
+
+/* #title-section*/
+
+.navbar-dark{
+    background-color: var(--dark-shade);
+    font-family: var(--text-font);
+    color: var(--dark-shade);
+}
+
+
+
+/*hero-section */
+
+.business-tagline .carousel-indicators li {
+   background-color: var(--dark-accent);
+}
+
+.business-tagline{
+    background-color: var(--light-accent);
+    color: var(--light-shade);
+}
+
+
+.hero-titular{
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+
+
+/* Pricing */
+
+#pricing-section{
+    background-color: var(--dark-accent);
+    
+    font-family: var(--text-font);
+}
+
+.pricing-header{
+  color: var(--light-shade);
+}
+
+
+/* .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
+
+  /* Testimonial section */
+#testimonials {
+    text-align: center;
+    color: #fff;
+    background-color: var(--light-accent);
+  }
+  
+  .testimonial-image {
+    width: 18%;
+    border-radius: 100%;
+    margin: 10px;
+  }
+  
+  .carousel-item p{
+    margin-bottom: 30px;
+  }
+  .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: var(--dark-shade);
+  }
+ 
+
+ /* Form Validation Registration section */
+
+#validation-section{
+  color: var(--light-shade);
+  font-weight: 500;
+}
+
+.help-block {
+  color:crimson;
+}
+#RegistrationModal {
+color: var(--dark-accent-second);
+}
+
+
+  /*footer*/
+
+
+footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 10px 0px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.bottom_border { border-bottom:2px solid #323f45; padding: 20px auto 10px;}
+.footer_bottom_ul {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.footer_bottom_ul li { display:inline;}
+.footer_bottom_ul li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { height: auto; display:flex; justify-content: center; padding-left: 0; margin:15px auto; list-style-type:none;  }
+.social_footer_ul li {padding: 10px 10px; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+
+@media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+ 
+   .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 200px;
+  }
